@@ -32,7 +32,7 @@ It saves both the ROI set and one CSV per image and channel.
 
 ### 2. Python Scripts
 
-#### **`CARMEN_combine_and_backgroundsubstract_CSVs.py`**
+#### **`CARMEN_combine_and_backgroundsubstract_CSVs.ipynb`**
 - Combines and background-subtracts ROI intensity values.
 - Assumes the *last ROI* in each image represents background.
 - Merges four per-image CSVs (e.g. `Image01_Intensity FP1.csv` to `FP4.csv`) into one Excel file.
@@ -40,7 +40,7 @@ It saves both the ROI set and one CSV per image and channel.
 
 ---
 
-#### **`CARMEN_combine_and_backgroundsubstract_CSVs_endpoint.py`**
+#### **`CARMEN_combine_and_backgroundsubstract_CSVs_endpoint.ipynb`**
 Two-part script:
 
 **Step 1:**  
@@ -52,8 +52,8 @@ automatically determines background (last valid `MeanX`), and performs backgroun
 
 ---
 
-#### **`CARMEN_combine_and_curvefitting_xlsmtemplate.py`**  
-(or: `CARMEN_combine_and_curvefitting_xlsxtemplate.py`)
+#### **`CARMEN_combine_and_curvefitting_xlsmtemplate.ipynb`**  
+(or: `CARMEN_combine_and_curvefitting_xlsxtemplate.ipynb`)
 
 Includes use of either `CARMEN_template.xlsm` (macro-enabled) or `CARMEN_template.xlsx`.
 
