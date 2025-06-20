@@ -70,6 +70,25 @@ Background correction and optional outlier removal are included.
 
 ---
 
+#### **`CARMEN_onset_return_oscillation.ipynb`**  
+Fully automated batch analysis of multi-channel calcium imaging data.
+Processes all .xlsm files in a folder and analyses each 3-channel dataset (e.g. GFP, RFP, NIR).
+
+- Applies Savitzky-Golay smoothing and derivative-based onset detection.
+- Calculates return-to-baseline times and response durations.
+- Detects oscillations (peaks and troughs) between onset and return.
+- Generates three plots per dataset (zoomed view, oscillations, global signal) and saves them as PNGs.
+- Saves per-dataset results (timing, durations, oscillation count) into an Excel file.
+- Logs all parameter settings to a .txt file for reproducibility.
+
+**Step 1:**  
+Test and adjust parameters for peak detection, smoothing, and baseline return.
+
+**Step 2:**  
+Run full batch analysis on all .xlsm files in the selected folder.
+
+---
+
 ## 📥 Input Format
 
 - `.csv` files from Fiji with filenames like:  
@@ -101,8 +120,9 @@ Background correction and optional outlier removal are included.
 ```text
 pandas
 numpy
-openpyxl
 scipy
+matplotlib
+openpyxl
 xlwings
 ```
 
