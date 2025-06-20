@@ -1,9 +1,9 @@
 cff-version: 1.2.0
 message: "If you use this workflow or code, please cite it as below."
 title: "CARMEN: Calcium Multiplexing Analysis Workflow"
-version: "v1.0"
-doi: 10.5281/zenodo.15648675
-date-released: 2025-06-12
+version: "v1.1"
+doi: 10.5281/zenodo.15705614
+date-released: 2025-06-20
 url: "https://github.com/AnnaLischnig/CARMEN"
 repository-code: "https://github.com/AnnaLischnig/CARMEN"
 authors:
