@@ -135,5 +135,5 @@ Anna Lischnig, Yusuf Erdoğan, Benjamin Gottschalk, et al.
 *A Quad-Cistronic Fluorescent Biosensor System for Real-Time Detection of Subcellular Ca²⁺ Signals.*  
 Authorea, March 03, 2025. DOI: [10.22541/au.174098553.38904074/v1](https://doi.org/10.22541/au.174098553.38904074/v1)
 
-Lischnig, A. (2025). CARMEN: Calcium Multiplexing Analysis Workflow (Version v1.0) 
-[Computer software]. https://doi.org/10.5281/zenodo.15648675
+Lischnig, A. (2025). CARMEN: Calcium Multiplexing Analysis Workflow (Version v1.1) 
+[Computer software]. https://doi.org/10.5281/zenodo.15705614
